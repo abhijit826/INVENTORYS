@@ -2,7 +2,7 @@
 import { useDispatch,  } from 'react-redux'
 import { collapsedSidebar  ,toggleSidebar } from '../provider/slice/Sidebar.slice';
 import { RiMenu2Fill } from "react-icons/ri";
-import { IoLogOutOutline } from "react-icons/io5";
+import { FaSignOutAlt } from "react-icons/fa";
 import { removeUser } from '../provider/slice/user.slice';
 import { useNavigate } from 'react-router-dom';
 const Header = () => {
@@ -38,7 +38,7 @@ const Header = () => {
         
         
             <div className="end">
-            <button title='logout' className='hidden lg:flex' onClick={logoutHandler}><IoLogOutOutline className='text-2xl text-red-500' /> </button>
+            <button title='logout' className='hidden lg:flex' onClick={logoutHandler}><FaSignOutAlt className='text-2xl text-red-500' /> </button>
             </div>
               </div>
                 </header>

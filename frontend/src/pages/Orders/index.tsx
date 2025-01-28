@@ -87,7 +87,7 @@ const OrdersPage = () => {
   return (
     <>
     
-      <BredCrums PageLink='/orders' PageName='Orders' /> 
+      <BredCrums PageLink='/orders' PageName='Transactions' /> 
 
 
       <div className="mb-3 flex justify-end w-[90%] mx-auto">
