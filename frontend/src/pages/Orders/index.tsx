@@ -91,7 +91,7 @@ const OrdersPage = () => {
 
 
       <div className="mb-3 flex justify-end w-[90%] mx-auto">
-        <button onClick={() => setVisible(!visible)} className="px-5 py-2 bg-purple-500 text-white rounded-sm">Add Orders</button>
+        <button onClick={() => setVisible(!visible)} className="px-5 py-2 bg-gradient-to-r from-yellow-500 to-orange-500 text-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">Add Orders</button>
 
       </div>
       <form onSubmit={SearchHandler} className="mb-3 flex justify-end w-[90%] mx-auto">

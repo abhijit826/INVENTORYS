@@ -81,7 +81,7 @@ const UserPage = () => {
         <BredCrums PageLink='/user' PageName='Users' /> 
  
               <div className="mb-3 flex justify-end w-[90%] mx-auto">
-                <button onClick={()=>setVisible(!visible)} className="px-5 py-2 bg-purple-500 text-white rounded-sm">Add User</button>
+                <button onClick={()=>setVisible(!visible)} className="px-5 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">Add User</button>
 
               </div>
       <form onSubmit={onSubmitHandler} className="mb-3 flex justify-end w-[90%] mx-auto">
